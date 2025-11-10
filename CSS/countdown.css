@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+.countdown-container {
+    text-align: center;
+    padding: 40px;
+    padding-top: 80px; 
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+.back-button {
+    position: fixed; 
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 100; 
+}
+
+.back-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6), 0 6px 10px rgba(255, 255, 255, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.countdown-title {
+    font-size: 4rem;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.countdown-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    min-width: 140px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    opacity: 0;
+    animation: popIn 0.6s ease-out forwards;
+}
+
+.time-unit:nth-child(1) { animation-delay: 0.3s; }
+.time-unit:nth-child(2) { animation-delay: 0.4s; }
+.time-unit:nth-child(3) { animation-delay: 0.5s; }
+.time-unit:nth-child(4) { animation-delay: 0.6s; }
+.time-unit:nth-child(5) { animation-delay: 0.7s; }
+.time-unit:nth-child(6) { animation-delay: 0.8s; }
+
+.time-unit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.time-value {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.time-label {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.countdown-message {
+    font-size: 2rem;
+    color: white;
+    margin-top: 30px;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.9s forwards;
+}
+
+@media (max-width: 768px) {
+    .countdown-container {
+        padding-top: 100px; 
+    }
+    
+    .countdown-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .countdown-display {
+        gap: 20px;
+    }
+    
+    .time-unit {
+        min-width: 100px;
+        padding: 20px;
+    }
+    
+    .time-value {
+        font-size: 2.5rem;
+    }
+    
+    .time-label {
+        font-size: 1rem;
+    }
+    
+    .countdown-message {
+        font-size: 1.5rem;
+    }
+    
+    .back-button {
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+}

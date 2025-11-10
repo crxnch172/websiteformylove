@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letters - Anniversary</title>
+    <link rel="stylesheet" href="../css/letter.css">
+</head>
+<body>
+    <a href="../index.html" class="back-button">← Back</a>
+    
+    <div class="letters-container">
+        <h1 class="page-title">Our Letters</h1>
+        <p class="page-subtitle">Click on a letter to read it</p>
+        
+        <div class="letters-grid">
+            <button class="letter-card" data-letter="1">
+                <div class="letter-icon">🥳</div>
+                <h3>Letter 1</h3>
+                <p>9th Monthsary</p>
+            </button>
+            
+            <button class="letter-card" data-letter="2">
+                <div class="letter-icon">😘</div>
+                <h3>Letter 2</h3>
+                <p>10th Monthsary</p>
+            </button>
+            
+            <button class="letter-card" data-letter="3">
+                <div class="letter-icon">🎉</div>
+                <h3>Letter 3</h3>
+                <p>Happy Birthday!</p>
+            </button>
+            
+            <button class="letter-card" data-letter="4">
+                <div class="letter-icon">😍</div>
+                <h3>Letter 4</h3>
+                <p>11th Monthsary</p>
+            </button>
+            
+            <button class="letter-card" data-letter="5">
+                <div class="letter-icon">💝</div>
+                <h3>Letter 5</h3>
+                <p>Happy Anniversary!</p>
+            </button>
+            
+            <button class="letter-card" data-letter="6">
+                <div class="letter-icon">🥰</div>
+                <h3>Letter 6</h3>
+                <p>13th Monthsary</p>
+            </button>
+        </div>
+    </div>
+    
+    <div class="letter-modal" id="letterModal">
+        <div class="modal-content">
+            <button class="close-button" id="closeModal">✕</button>
+            <div class="letter-header">
+                <h2 id="letterTitle">Letter Title</h2>
+                <p class="letter-date" id="letterDate">Date</p>
+            </div>
+            <div class="letter-body" id="letterBody">
+                <p>Letter content will appear here...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/letters.js"></script>
+</body>
+</html>
