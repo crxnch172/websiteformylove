@@ -1,5 +1,5 @@
 // Change the date here using new Date(year, monthIndex (0-11), day, hours, minutes, seconds); month is zero-based (0 = January)
-const anniversaryDate = new Date(2025, 10, 11, 0, 0, 0);
+const anniversaryDate = new Date(2025, 11, 11, 0, 0, 0);
 
 function updateCountdown() {
     const now = new Date();
