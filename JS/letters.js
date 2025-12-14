@@ -47,6 +47,18 @@ const letters = {
         
         I love you so much, don't you always forget that. If you feel like you are alone and that no one is at your side, think of me please.
         I love you so much, my love. All ways and always. I hope to get old with you!!!`
+    },
+
+    3: {
+        title: "Happy Sweet Sixteen",
+        date: "December 15, 2025",
+        content: `HAPPY 16TH BIRTHDAY, MY BABYYYY!!!! MY baby is getting old na HAHAHAHAHHAAH. But in all seriousness,
+        I am glad that I am here by your side, with you, in this new chapter of your life. These past 10 months with you
+        is full of memories that I will always cherish in my heart, and I can't wait to create more with you. On your special day,
+        I hope you feel how loved and cared for you are, not just today, but every single day. You deserve happiness, love, and all 
+        the good things in life. I will always be here, cheering for you and staying by your side. You make my life brighter in ways that
+        it puts a smile on my face every single time. I am so grateful to be by your side. Happy birthday, my love. Thank you for you and for
+        being you, and thank you for letting me love you. Happy Sweet Sixteen! 🥳🥳🎉🎉`
     }
 };
 
