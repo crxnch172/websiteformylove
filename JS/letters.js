@@ -78,7 +78,7 @@ const letters = {
         can't wait to see you, because seeing you makes me feel so much lighter and it instantly makes me happy. Totoo pala yung sinasabi nila na you will meet someone
         na nakakabaliw and that is you. Nakakabaliw na hindi kita nakikita araw araw HAAHAAHAHHAHAHHAHA. Anyways, thank you for taking the time to read this letter, my love.
         I am so grateful, I would carry my heart out of my body to just show you how grateful I am to have you. You sheltered me from harm and kept me warm (please understand 
-        this reference HAHAHAHAHAHA or search it on google). I love you so much, my baby. All ways and always.😘😘😘
+        this reference HAHAHAHAHAHA or search it on google). I love you so much, my baby. All ways and always.😘😘😘`
 
     };
 
