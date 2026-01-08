@@ -80,7 +80,9 @@ const letters = {
         I am so grateful, I would carry my heart out of my body to just show you how grateful I am to have you. You sheltered me from harm and kept me warm (please understand 
         this reference HAHAHAHAHAHA or search it on google). I love you so much, my baby. All ways and always.😘😘😘`
 
-    };
+    },
+
+};
 
 
 const modal = document.getElementById('letterModal');
