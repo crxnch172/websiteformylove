@@ -59,8 +59,28 @@ const letters = {
         the good things in life. I will always be here, cheering for you and staying by your side. You make my life brighter in ways that
         it puts a smile on my face every single time. I am so grateful to be by your side. Happy birthday, my love. Thank you for you and for
         being you, and thank you for letting me love you. Happy Sweet Sixteen! 🥳🥳🎉🎉`
-    }
-};
+    },
+
+    4: {
+        title: "One Step Closer",
+        date: "January 11, 2026",
+        content: `To my dearest, Fiona, HAPPY 11TH MONTHSARYYY!!!🥳🥳🥳 I can't believe that we are one step closer to our anniversary, omg.
+        I am so grateful to you, to have you, and about to enter a new chapter in life with you. It feels so surreal and natural at 
+        the same time, crazy how time just like zoomed past us. You became my favority person, my safe place, my comfort, and my
+        happiness. Every day that I spent with you has taught me what love truly feels like, patience, laughter, understanding,
+        and choosing each other even on the hardest of days. Thank you for being you, your warmth, your gentleness, your smile, your eyes
+        that instantly makes me lose it and go crazy, which makes me so happy and grateful to have you. We have grown so much as a couple in these
+        past few months, and I couldn't be more grateful to experience life with you. You have made me feel worth it, made me feel that waking up the
+        next day is worth it, and I wouldn't trade that with anything else in the world. As I write this letter for you, I am missing you so much. Hopefully,
+        you know that I still carry your heart inside of my hands everyday, reminding myself that I am not alone, that I am loved, and that I am cared for. 
+        Thank you for embracing the kind of person I am because I know that I may be too much sometimes, you are my katinko HAHAHAHAHAHAHAH new callsign ko nga
+        sayo yun. Anyways, going back to the letter, I really love and miss you so much right now, I will literally cry if I don't get to see you on monday. I 
+        can't wait to see you, because seeing you makes me feel so much lighter and it instantly makes me happy. Totoo pala yung sinasabi nila na you will meet someone
+        na nakakabaliw and that is you. Nakakabaliw na hindi kita nakikita araw araw HAAHAAHAHHAHAHHAHA. Anyways, thank you for taking the time to read this letter, my love.
+        I am so grateful, I would carry my heart out of my body to just show you how grateful I am to have you. You sheltered me from harm and kept me warm (please understand 
+        this reference HAHAHAHAHAHA or search it on google). I love you so much, my baby. All ways and always.😘😘😘
+
+    };
 
 
 const modal = document.getElementById('letterModal');
