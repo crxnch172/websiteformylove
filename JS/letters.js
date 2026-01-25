@@ -1,6 +1,6 @@
 const letters = {
     1: {
-        title: "9th Monstary: Knowing you more leads to loving you more",
+        title: "9th Monthsary: Knowing you more leads to loving you more",
         date: "November 11, 2025",
         content: `
 
