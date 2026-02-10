@@ -83,9 +83,30 @@ const letters = {
     },
 
     5: {
-        title: "We're Finally Here",
+        title: "Happy Anniversary!",
         date: "February 11, 2026",
-        content: 'To be continued on February 11, 2026', 
+        content: `To my Dearest, Fiona, Oh. My. God. I cannot believe that I am writing this letter right now without feeling that feel of "Did I just actually make it" type of feeling. 
+        Even as I write this letter for you, I feel like no word, no sentence, no letter, no essay, could ever fully describe how much you mean to me, but hopefully this letter will, because
+        you truly deserve to hear it in every way possible. From that one moment of us talking all the way back in October 17, 2024, something shifted inside me. The world wasn't perfect and it 
+        didn't get perfect in a very sudden way, but it became brighter, warmer, more alive. You slowly became my favorite thought, my safest home, and my happiest happiness. Loving you is like breathing,
+        something that I need everyday, something natural, something that I don't have to force. I love you in ways that goes beyond grand gestures. I love you even in the smallest of moments, in the way 
+        you talk about things you are passionate about, in your laugh that always makes me laugh too, in the softness of your voice, and even in the worry, because that just shows how you truly feel about me.
+        It shows every part of you, even your flaws, I truly believe that they are precious to me. Before you, love was just an idea to me, something that I understood in theory. But when you came into my life, 
+        you have showed and taught me how it actually feels like. You showed me how love is patient, understanding, effort, and choosing someone after days and days come by, even if things are hard. Loving you isn't
+        something I do out of something just because, it's something I do with intention, with tenderness, and with my whole heart. Moments when I took a glance of you and feel overwhelmed, not because of fear,
+        but because of gratitude. Gratitude in a world that is so chaotic and full of uncertainties, I found someone whose love feels like home to me. Someone who understand me when I struggle to express my feelings, 
+        who sees through my flaws, and who still chooses to stay. You make me feel so safe in ways that cannot be described. I just love the way you exist in the world. I literally cannot stop talking about how much 
+        you care to those people around you. Even if you are so tired, you still choose to help in any way possible. The way you worry because it shows how much love you actually carry inside. The way your smile can 
+        make any bad day into an amazing day in almost an instant. The way your presence alone can bring my mind into peace. Loving you feels like I'm entering my sanctuary, something rare that I never would to take
+        for granted. Thank you for loving me even in my questionable moments, my imperfect moments. Thank you for believing in me when I doubt myself. Thank you for being patient when I'm learning, your softness when I'm tired
+        and your strength when I need it the most. You don't just love me, you nurture me, that is something that I will never stop appreciating. I want to be the person who protects your heart the way it deserves it to be protected.
+        The person who listens to you everytime you yap, who comforts you when you had a bad day, and the person who stands by you when life feels heavy. I want to be someone you feel safe loving, someone who makes you feel seen,
+        valued, and cherished. When I think about the future, it's always you that I think of. Not just in the biggest of my dreams, but also in the small quiet ones. Normal days become extraordinary simply because you're with me.
+        You are my comfort, you are my courage, my sea, and my sun. The calm and my chaos. My favorite place to go to. Loving you has been the most beautiful experience I have ever felt, and I will never stop being
+        grateful that I get to love you, and be loved in return. So today in our anniversary, I don't just celebrate our love, but I also honor it. I promise to continue on choosing you, learning you, and loving you more
+        deeply as days pass on. I promise to grow with you, to walk beside you, and to hold your heart in the palm of my hands with care, loyalty, and devotion. Happy anniversary, my love. You are my heart's favorite story,
+        the one that I will continue on writing about in my life. I love you endlessly, irrevocably ( a new word I learned ), and with everything that I am. I love you all ways, always. Forever yours, Pao`
+
     },
 };
 
